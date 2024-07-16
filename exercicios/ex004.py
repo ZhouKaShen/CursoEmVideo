@@ -1,0 +1,10 @@
+digitar_algo = str(input("Digite algo: "))
+print("O tipo primitivo desse valor é: ", type(digitar_algo))
+
+print("Ele tem espaços? ", digitar_algo.isspace())
+print("Ele é numérico? ", digitar_algo.isnumeric())
+print("Ele é alfabetético? ", digitar_algo.isalpha())
+print("Ele é alfanumérico? ", digitar_algo.isalnum())
+print("Ele está tudo em maiúsculo? ", digitar_algo.isupper())
+print("Ele está tudo em minúsculo?", digitar_algo.islower())
+print("Ele está capitalizado? ", digitar_algo.istitle())
